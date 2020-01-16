@@ -13,6 +13,8 @@
 		1CB7760723D116D200F8D21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7760523D116D200F8D21F /* Main.storyboard */; };
 		1CB7760923D116D400F8D21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7760823D116D400F8D21F /* Assets.xcassets */; };
 		1CB7760C23D116D400F8D21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7760A23D116D400F8D21F /* LaunchScreen.storyboard */; };
+		1CB7761523D11C0E00F8D21F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7761423D11C0E00F8D21F /* Book.swift */; };
+		1CB7761823D11FFA00F8D21F /* BookTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7761723D11FFA00F8D21F /* BookTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1CB7760823D116D400F8D21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CB7760B23D116D400F8D21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CB7760D23D116D400F8D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB7761423D11C0E00F8D21F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		1CB7761723D11FFA00F8D21F /* BookTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		1CB775FE23D116D200F8D21F /* Data Application */ = {
 			isa = PBXGroup;
 			children = (
+				1CB7761623D11FC700F8D21F /* Controller */,
+				1CB7761323D11BFD00F8D21F /* Model */,
 				1CB775FF23D116D200F8D21F /* AppDelegate.swift */,
 				1CB7760123D116D200F8D21F /* SceneDelegate.swift */,
-				1CB7760323D116D200F8D21F /* ViewController.swift */,
 				1CB7760523D116D200F8D21F /* Main.storyboard */,
 				1CB7760823D116D400F8D21F /* Assets.xcassets */,
 				1CB7760A23D116D400F8D21F /* LaunchScreen.storyboard */,
 				1CB7760D23D116D400F8D21F /* Info.plist */,
 			);
 			path = "Data Application";
+			sourceTree = "<group>";
+		};
+		1CB7761323D11BFD00F8D21F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CB7761423D11C0E00F8D21F /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CB7761623D11FC700F8D21F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CB7760323D116D200F8D21F /* ViewController.swift */,
+				1CB7761723D11FFA00F8D21F /* BookTableVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB7761523D11C0E00F8D21F /* Book.swift in Sources */,
+				1CB7761823D11FFA00F8D21F /* BookTableVC.swift in Sources */,
 				1CB7760423D116D200F8D21F /* ViewController.swift in Sources */,
 				1CB7760023D116D200F8D21F /* AppDelegate.swift in Sources */,
 				1CB7760223D116D200F8D21F /* SceneDelegate.swift in Sources */,
