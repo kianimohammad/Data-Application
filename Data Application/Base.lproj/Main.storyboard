@@ -84,7 +84,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="QYF-3H-XGP">
-                        <barButtonItem key="leftBarButtonItem" title="book list" id="XUM-9A-lrF">
+                        <barButtonItem key="leftBarButtonItem" title="book list" image="book" catalog="system" id="XUM-9A-lrF">
                             <connections>
                                 <segue destination="JiU-ra-fAx" kind="show" id="BVF-w6-mSq"/>
                             </connections>
@@ -171,6 +171,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book" catalog="system" width="64" height="50"/>
         <image name="plus" catalog="system" width="64" height="56"/>
     </resources>
 </document>
